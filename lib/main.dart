@@ -42,9 +42,9 @@ class _MyAppState extends State<MyApp> {
                   padding: EdgeInsets.all(20),
                   child: TextField(
                     decoration: InputDecoration(
-                        filled: true,
-                        fillColor: Colors.white,
-                        hintText: 'Email Adress',
+                      filled: true,
+                      fillColor: Colors.white,
+                      hintText: 'Email Adress',
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(40),
                         borderSide: BorderSide(
@@ -62,14 +62,14 @@ class _MyAppState extends State<MyApp> {
                   padding: EdgeInsets.symmetric(horizontal: 20),
                   child: TextField(
                     decoration: InputDecoration(
-                        filled: true,
-                        fillColor: Colors.white,
-                        hintText: 'Password',
-                        enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(40),
+                      filled: true,
+                      fillColor: Colors.white,
+                      hintText: 'Password',
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(40),
                         borderSide: BorderSide(
                             width: 3, color: Colors.black12), //<-- SEE HERE
-                        ),
+                      ),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(40),
                         borderSide: BorderSide(
@@ -95,7 +95,6 @@ class _MyAppState extends State<MyApp> {
                           fontWeight: FontWeight.w700,
                           fontSize: 20),
                     )),
-
                 Padding(
                   padding: EdgeInsets.all(10),
                   child: Text(
@@ -107,13 +106,12 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                 ),
-
                 TextButton(
                     onPressed: () {},
                     style: TextButton.styleFrom(
                       backgroundColor: Color.fromRGBO(59, 89, 152, 1),
                       padding:
-                      EdgeInsets.symmetric(vertical: 20, horizontal: 65),
+                          EdgeInsets.symmetric(vertical: 20, horizontal: 65),
                     ),
                     child: Text(
                       'Facebook Login',
